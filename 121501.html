@@ -1,0 +1,21 @@
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title>表单</title>
+	</head>
+	<body>
+		<h3>简单的表单</h3><hr>
+		<form>
+			<feildset>
+				<legend>联系信息</legend>
+				<p><label><pre>姓  名:<input type="text" name="name" placeholder="秦兴忠"></pre></label></p>
+				<p><label>Email:<input type="email" name="email"></label></p>
+				<p><label><pre>网  址:<input type="url" name="website"></pre></label></p>
+				<p><label><pre>电  话:<input type="tel" name="phone" pattern="1[0-9]{10}"></pre></label></p>
+				<p><label><pre>密  码:<input type="password" name="password" autocomplete=off></pre></label></p>
+				<!--pre标签保留了空格和换行-->
+			</feildset>
+			<p><button type="submit">提交</button></p>
+		</form>
+	</body>
+</html>
